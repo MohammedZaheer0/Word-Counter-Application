@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(rgb(151, 151, 241),rgb(214, 77, 214));
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    height: 100%;
+}
+h2{
+    text-align: center;
+    margin: 20px;
+}
+textarea{
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 10px;
+    outline: none;
+    padding: 30px;
+    font-size: 1rem;
+}
+.innerdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+#one,#two,#three{
+    margin: 5px;
+    font-size: 1.1rem;
+}
+#btn{
+    width: 90px;
+    margin: 0 auto;
+    padding: 8px 20px;
+    background: transparent;
+    border: 1px solid #000;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    background-color: rgb(5, 219, 219);
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    width: 90%;
+}
+#about h3,p,h3{
+    margin: 15px;
+    word-spacing: 3px;
+    font-family: monospace;
+}
+#about #tip{
+    color: brown;
+}
+
+@media only screen and (max-width:320px){
+h2{
+    font-size: 1rem;
+}
+textarea{
+    width: 75%;
+    font-size: 0.7rem;
+}
+#one,#two,#three{
+    font-size: 0.7rem;
+}
+#btn{
+    width: 80px;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+#about{
+    font-size: 0.9rem;
+    padding: 10px;
+    width: 80%;
+}
+#about h3,p,h3{
+    margin: 10px;
+    word-spacing: 1px;
+}
+}
+
+@media only screen and (min-width:321px) and (max-width:425px){
+h2{
+    font-size: 1.5rem;
+}
+textarea{
+    width: 75%;
+    font-size: 0.8rem;
+}
+#one,#two,#three{
+    font-size: 0.8rem;
+}
+#btn{
+    width: 90px;
+    padding: 5px 10px;
+    font-size: 1rem;
+}
+#about{
+    font-size: 0.9rem;
+    padding: 10px;
+    width: 80%;
+}
+#about h3,p,h3{
+    margin: 10px;
+    word-spacing: 2px;
+}
+
+}
+@media only screen and (min-width:426px) and (max-width:768px){
+h2{
+    font-size: 1.7rem;
+}
+textarea{
+    width: 75%;
+    font-size: 0.9rem;
+}
+#one,#two,#three{
+    font-size: 1rem;
+}
+#btn{
+    width: 90px;
+    padding: 8px 15px;
+    font-size: 1rem;
+}
+#about{
+    font-size: 1rem;
+    padding: 15px;
+    width: 80%;
+}
+#about h3,p,h3{
+    margin: 10px;
+    word-spacing: 3px;
+}
+
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+h2{
+    font-size: 1.8rem;
+}
+textarea{
+    width: 75%;
+    font-size: 1rem;
+}
+#one,#two,#three{
+    font-size: 1.1rem;
+}
+#btn{
+    width: 90px;
+    padding: 8px 15px;
+    font-size: 1.1rem;
+}
+#about{
+    font-size: 1.1rem;
+    padding: 15px;
+    width: 80%;
+}
+#about h3,p,h3{
+    margin: 15px;
+    word-spacing: 4px;
+}
+
+}
